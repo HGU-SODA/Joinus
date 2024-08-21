@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:joy/screen/account/login.dart';
-import 'package:joy/themepage/theme.dart';
+import '/screen/account/login.dart';
+import '/themepage/theme.dart';
 import 'package:page_view_dot_indicator/page_view_dot_indicator.dart';
 
 class onboarding extends StatefulWidget {

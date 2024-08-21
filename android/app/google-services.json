@@ -1,43 +1,26 @@
 {
   "project_info": {
-    "project_number": "282524074619",
-    "project_id": "fire-cd56d",
-    "storage_bucket": "fire-cd56d.appspot.com"
+    "project_number": "11255186132",
+    "project_id": "joinus-76564",
+    "storage_bucket": "joinus-76564.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:282524074619:android:afc0618e523f2705e198de",
+        "mobilesdk_app_id": "1:11255186132:android:c6d3cf60075cbf0ced7141",
         "android_client_info": {
           "package_name": "com.example.flutter_application_4"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "282524074619-11a1h65bfd306ttpmho192lva6rcpor1.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBgMOi7SaoMZ49or7CCMesO9ZnFY72CJmQ"
+          "current_key": "AIzaSyBA6i_BBwlBZD5sgBAsJ6-5LCF7gHWNC3M"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "282524074619-11a1h65bfd306ttpmho192lva6rcpor1.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "282524074619-gi34e2i8pu891vsi7u44eovmao19l08t.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.flutterApplication1"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

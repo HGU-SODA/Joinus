@@ -1,9 +1,1 @@
-{
-  "firestore": {
-    "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
-  },
-  "storage": {
-    "rules": "storage.rules"
-  }
-}
+{"firestore":{"rules":"firestore.rules","indexes":"firestore.indexes.json"},"storage":{"rules":"storage.rules"},"flutter":{"platforms":{"android":{"default":{"projectId":"joinus-76564","appId":"1:11255186132:android:c6d3cf60075cbf0ced7141","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"joinus-76564","appId":"1:11255186132:ios:c385671e0a37f9daed7141","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"macos":{"default":{"projectId":"joinus-76564","appId":"1:11255186132:ios:c385671e0a37f9daed7141","uploadDebugSymbols":false,"fileOutput":"macos/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"joinus-76564","configurations":{"android":"1:11255186132:android:c6d3cf60075cbf0ced7141","ios":"1:11255186132:ios:c385671e0a37f9daed7141","macos":"1:11255186132:ios:c385671e0a37f9daed7141","web":"1:11255186132:web:687ac2016968f3aeed7141","windows":"1:11255186132:web:fe3a8ca399c3fdfeed7141"}}}}}}

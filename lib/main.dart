@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:joy/screen/account/login.dart';
+import '/screen/account/login.dart';
 
 import 'screen/bottom/bottom.dart';
 import 'firebase_options.dart';

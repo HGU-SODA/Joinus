@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:joy/screen/account/signup_email.dart';
+import '/screen/account/signup_email.dart';
 
 import '../../data/user_data.dart';
 import '../../themepage/theme.dart';

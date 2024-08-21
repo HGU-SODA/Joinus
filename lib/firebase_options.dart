@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,39 +41,47 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDUi-7XScpqTHezuMOYSS1rX-MVFAf98TY',
-    appId: '1:282524074619:web:b555cf4e69fac7d6e198de',
-    messagingSenderId: '282524074619',
-    projectId: 'fire-cd56d',
-    authDomain: 'fire-cd56d.firebaseapp.com',
-    storageBucket: 'fire-cd56d.appspot.com',
+    apiKey: 'AIzaSyB-go_T0y0uCmSM332U_KBE4uKkIPm1qRw',
+    appId: '1:11255186132:web:687ac2016968f3aeed7141',
+    messagingSenderId: '11255186132',
+    projectId: 'joinus-76564',
+    authDomain: 'joinus-76564.firebaseapp.com',
+    storageBucket: 'joinus-76564.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBgMOi7SaoMZ49or7CCMesO9ZnFY72CJmQ',
-    appId: '1:282524074619:android:afc0618e523f2705e198de',
-    messagingSenderId: '282524074619',
-    projectId: 'fire-cd56d',
-    storageBucket: 'fire-cd56d.appspot.com',
+    apiKey: 'AIzaSyBA6i_BBwlBZD5sgBAsJ6-5LCF7gHWNC3M',
+    appId: '1:11255186132:android:c6d3cf60075cbf0ced7141',
+    messagingSenderId: '11255186132',
+    projectId: 'joinus-76564',
+    storageBucket: 'joinus-76564.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAN50evNNBZ9EVJOjjyAmgiTbIk2YdvP14',
-    appId: '1:282524074619:ios:536a00639abc0fe0e198de',
-    messagingSenderId: '282524074619',
-    projectId: 'fire-cd56d',
-    storageBucket: 'fire-cd56d.appspot.com',
-    iosClientId: '282524074619-h4i2rusi97n5ghsgiuepvhsqu8de0i1e.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDOZ1I9vrzFU_5r2nCoe7ujd_rVCfa3q1k',
+    appId: '1:11255186132:ios:c385671e0a37f9daed7141',
+    messagingSenderId: '11255186132',
+    projectId: 'joinus-76564',
+    storageBucket: 'joinus-76564.appspot.com',
     iosBundleId: 'com.example.flutterApplication4',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAN50evNNBZ9EVJOjjyAmgiTbIk2YdvP14',
-    appId: '1:282524074619:ios:1cc96de662ca3cf0e198de',
-    messagingSenderId: '282524074619',
-    projectId: 'fire-cd56d',
-    storageBucket: 'fire-cd56d.appspot.com',
-    iosClientId: '282524074619-h4vs2pmv6995ntvme5tfppdebsrk4ds6.apps.googleusercontent.com',
-    iosBundleId: 'com.example.flutterApplication4.RunnerTests',
+    apiKey: 'AIzaSyDOZ1I9vrzFU_5r2nCoe7ujd_rVCfa3q1k',
+    appId: '1:11255186132:ios:c385671e0a37f9daed7141',
+    messagingSenderId: '11255186132',
+    projectId: 'joinus-76564',
+    storageBucket: 'joinus-76564.appspot.com',
+    iosBundleId: 'com.example.flutterApplication4',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyB-go_T0y0uCmSM332U_KBE4uKkIPm1qRw',
+    appId: '1:11255186132:web:fe3a8ca399c3fdfeed7141',
+    messagingSenderId: '11255186132',
+    projectId: 'joinus-76564',
+    authDomain: 'joinus-76564.firebaseapp.com',
+    storageBucket: 'joinus-76564.appspot.com',
+  );
+
 }

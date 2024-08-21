@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:joy/screen/bottom/profile.dart';
-import 'package:joy/screen/bottom/search.dart';
+import '/screen/bottom/profile.dart';
+import '/screen/bottom/search.dart';
 import '../../themepage/theme.dart';
 import 'home.dart';
 

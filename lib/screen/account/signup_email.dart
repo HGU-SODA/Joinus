@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:joy/themepage/theme.dart';
+import '/themepage/theme.dart';
 
 import '../../data/user_data.dart';
 import 'signup_password.dart';

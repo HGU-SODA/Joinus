@@ -2,8 +2,8 @@
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:joy/info/user.dart';
-import 'package:joy/screen/account/login.dart';
+import '/info/user.dart';
+import '/screen/account/login.dart';
 
 import '../../themepage/theme.dart';
 
